@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    height: 100vh;
-    background-color: rgba(207, 125, 176, 0.7);
+body{
+    background:black;
+    color: white;
+  
 }
+
 .wrapper{
-display: flex;
-justify-content: space-between;
+text-align: center;
 padding-top: 3rem;
 }
 h2 {
@@ -23,4 +24,8 @@ h2 {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+p{
+    color: white;
+    font-size: 2rem;
 }

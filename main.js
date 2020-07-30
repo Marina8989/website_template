@@ -85,3 +85,28 @@ const eight = document.querySelector('.eight');
 setTimeout(() => {
     eight.style.display = 'block';
 }, 28000);
+
+//hearts size and color
+
+const icon = document.querySelectorAll('.fa-heart');
+setInterval(() => {
+    for (let i = 0; i < icon.length; i++) {
+        icon[i].style.color = 'yellow';
+    }
+}, 2000);
+setInterval(() => {
+    for (let i = 0; i < icon.length; i++) {
+        icon[i].style.color = 'pink';
+    }
+}, 3000);
+
+setInterval(() => {
+    for (let i = 0; i < icon.length; i++) {
+        icon[i].style.color = 'cyan';
+    }
+}, 5000);
+setInterval(() => {
+    for (let i = 0; i < icon.length; i++) {
+        icon[i].style.color = 'orange';
+    }
+}, 6000);
