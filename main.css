@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    height: 100vh;
+    background-color: rgba(207, 125, 176, 0.7);
+}
+.wrapper{
+display: flex;
+justify-content: space-between;
+padding-top: 3rem;
+}
+h2 {
+    padding-left: 4rem;
+}
+.nav{
+    padding-right: 5rem;
+}
+.nav a {
+    padding-right: 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
