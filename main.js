@@ -2,7 +2,6 @@
 const test = document.querySelector('.test');
 setTimeout(() => {
       test.style.display = 'block'; 
-      
 }, 2000);
 
 const test2 = document.querySelector('.test2');
@@ -49,6 +48,7 @@ setTimeout(() => {
 const one = document.querySelector('.one');
 setTimeout(() => {
      one.style.display = 'block';
+     
 }, 28000);
 
 const two = document.querySelector('.two');
@@ -110,3 +110,55 @@ setInterval(() => {
         icon[i].style.color = 'orange';
     }
 }, 6000);
+
+
+
+const zone = document.querySelector('.zone');
+setTimeout(() => {
+    zone.style.display = 'block';
+}, 30000);
+setTimeout(() => {
+  zone.style.display = "none";
+}, 32000);
+const ztwo = document.querySelector(".ztwo");
+setTimeout(() => {
+  ztwo.style.display = "block";
+}, 32000);
+setTimeout(() => {
+  ztwo.style.display = "none";
+}, 34000);
+const zthree = document.querySelector(".zthree");
+setTimeout(() => {
+  zthree.style.display = "block";
+}, 34000);
+setTimeout(() => {
+  zthree.style.display = "none";
+}, 36000);
+const zfour = document.querySelector('.zfour');
+setTimeout(() => {
+  zfour.style.display = "block";
+}, 36000);
+setTimeout(() => {
+  zfour.style.display = "none";
+}, 38000);
+const zfive = document.querySelector(".zfive");
+setTimeout(() => {
+  zfive.style.display = "block";
+}, 38000);
+setTimeout(() => {
+  zfive.style.display = "none";
+}, 40000);
+const zsix = document.querySelector(".zsix");
+setTimeout(() => {
+  zsix.style.display = "block";
+}, 40000);
+setTimeout(() => {
+  zsix.style.display = "none";
+}, 42000);
+const zseven = document.querySelector(".zseven");
+setTimeout(() => {
+  zseven.style.display = "block";
+}, 42000);
+setTimeout(() => {
+  zseven.style.display = "none";
+}, 44000);
