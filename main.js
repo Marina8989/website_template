@@ -170,11 +170,10 @@ setTimeout(() => {
 
 const h4 = document.querySelector('.hb');
 setTimeout(() => {
-    h4.style.display = 'block';
-    h4.style.color = 'red';
-    h4.style.textAlign = 'center';
-    h4.style.fontSize = '2rem';
-    
+      h4.style.display = "block";
+      h4.style.color = "red";
+      h4.style.textAlign = "center";
+ 
 }, 45000);
 
 setTimeout(() => {
@@ -207,3 +206,85 @@ setTimeout(() => {
   h4.style.textAlign = "center";
   h4.style.fontSize = "1rem";
 }, 50000);
+
+
+
+const ha = document.querySelector(".ha");
+setTimeout(() => {
+  ha.style.display = "block";
+  ha.style.color = "red";
+  ha.style.textAlign = "center";
+}, 45000);
+
+setTimeout(() => {
+  ha.style.display = "block";
+  ha.style.color = "purple";
+  ha.style.textAlign = "center";
+  ha.style.fontSize = "3rem";
+}, 46000);
+setTimeout(() => {
+  ha.style.display = "block";
+  ha.style.color = "green";
+  ha.style.textAlign = "center";
+  ha.style.fontSize = "2.7rem";
+}, 47000);
+setTimeout(() => {
+  ha.style.display = "block";
+  ha.style.color = "blue";
+  ha.style.textAlign = "center";
+  ha.style.fontSize = "1rem";
+}, 48000);
+setTimeout(() => {
+  ha.style.display = "block";
+  ha.style.color = "red";
+  ha.style.textAlign = "center";
+  ha.style.fontSize = "1.2rem";
+}, 49000);
+setTimeout(() => {
+  ha.style.display = "block";
+  ha.style.color = "yellow";
+  ha.style.textAlign = "center";
+  ha.style.fontSize = "1rem";
+}, 50000);
+
+
+
+const hc = document.querySelector(".hc");
+setTimeout(() => {
+  hc.style.display = "block";
+  hc.style.color = "red";
+  hc.style.textAlign = "center";
+}, 45000);
+
+setTimeout(() => {
+  hc.style.display = "block";
+  hc.style.color = "purple";
+  hc.style.textAlign = "center";
+  hc.style.fontSize = "3rem";
+}, 46000);
+setTimeout(() => {
+  hc.style.display = "block";
+  hc.style.color = "orange";
+  hc.style.textAlign = "center";
+  hc.style.fontSize = "2.7rem";
+}, 47000);
+setTimeout(() => {
+  hc.style.display = "block";
+  hc.style.color = "yellow";
+  hc.style.textAlign = "center";
+  hc.style.fontSize = "1rem";
+}, 48000);
+setTimeout(() => {
+  hc.style.display = "block";
+  hc.style.color = "green";
+  hc.style.textAlign = "center";
+  hc.style.fontSize = "1.2rem";
+}, 49000);
+setTimeout(() => {
+  hc.style.display = "block";
+  hc.style.color = "blue";
+  hc.style.textAlign = "center";
+  hc.style.fontSize = "1rem";
+}, 50000);
+
+
