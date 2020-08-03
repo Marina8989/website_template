@@ -111,7 +111,12 @@ setInterval(() => {
     }
 }, 6000);
 
-
+const ii = document.querySelectorAll('i');
+setTimeout(() => {
+    for(let i = 0; i < ii.length; i++) {
+        ii[i].style.display = 'none';
+    }
+}, 30000);
 
 const zone = document.querySelector('.zone');
 setTimeout(() => {
@@ -162,3 +167,43 @@ setTimeout(() => {
 setTimeout(() => {
   zseven.style.display = "none";
 }, 44000);
+
+const h4 = document.querySelector('.hb');
+setTimeout(() => {
+    h4.style.display = 'block';
+    h4.style.color = 'red';
+    h4.style.textAlign = 'center';
+    h4.style.fontSize = '2rem';
+    
+}, 45000);
+
+setTimeout(() => {
+  h4.style.display = "block";
+  h4.style.color = "purple";
+  h4.style.textAlign = "center";
+  h4.style.fontSize = "3rem";
+}, 46000);
+setTimeout(() => {
+  h4.style.display = "block";
+  h4.style.color = "yellow";
+  h4.style.textAlign = "center";
+  h4.style.fontSize = "2.7rem";
+}, 47000);
+setTimeout(() => {
+  h4.style.display = "block";
+  h4.style.color = "green";
+  h4.style.textAlign = "center";
+  h4.style.fontSize = "1rem";
+}, 48000);
+setTimeout(() => {
+  h4.style.display = "block";
+  h4.style.color = "blue";
+  h4.style.textAlign = "center";
+  h4.style.fontSize = "1.2rem";
+}, 49000);
+setTimeout(() => {
+  h4.style.display = "block";
+  h4.style.color = "red";
+  h4.style.textAlign = "center";
+  h4.style.fontSize = "1rem";
+}, 50000);
