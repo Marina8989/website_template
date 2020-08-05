@@ -1,42 +1,53 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
+html {
+    min-height: 100vh; 
+}
 body{
-    background:pink;
+    margin: 0;
+    background: radial-gradient(rgb(92, 189, 235), rgb(2, 35, 61));
+}
+.page-title {
+    color: white;
+    font-weight: normal;
     text-align: center;
+    font-size: 6em;
+}
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 50px;
+}
+.game-info-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
 }
 
-.wrapper{
-text-align: center;
-padding-top: 3rem;
-}
-h2 {
-    padding-left: 4rem;
-    font-size: 2.3rem;
-    color: rgb(152, 85, 165);
-    margin-bottom: 4rem;
-    text-align: center;
-}
-.nav{
-    padding-right: 5rem;
-}
-.nav a {
-    padding-right: 2rem;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-p{
+.game-info{
     color: white;
-    font-size: 2rem;
-    margin-top: 1.8rem;
+    font-size: 4em;
 }
-img {
-    margin: 2rem auto;
-    margin-top: 4rem;
+.card{
+    position: relative;
+    background-color: white;
+    height: 175px;
+    width: 125px;
 }
-h4{
-    margin-top: 2rem;
+.card-face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    
+}
+
+.card-front{
+    transform: rotateX(180deg);
 }

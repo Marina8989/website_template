@@ -1,84 +1,42 @@
 <!DOCTYPE html>
- <html> 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Website Template</title>
-        <meta name="description" content="Marina Altudova, front end developer from San Francisco">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://kit.fontawesome.com/74510c919c.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-       <div class="container">
-           <div class="wrapper">
-               <div class="logo">
-                   <h2 class="animate__animated animate__flipInY"><i class="fas fa-heart" style="color: red;"></i>Arina Kertieva<i class="fas fa-heart" style="color: red; " ></i></h2>
-               </div>
-           </div>
-            <p class="test" style="display: none; color: green;">Желаю радости всегда
-            И настроения бодрого,
-            Не знать печали никогда
-            И в жизни всего доброго.
-            Никогда не унывать,
-            Не видеть огорчения
-            И дни с улыбкой начинать,
-            Как в этот День Рождения! <i class="fas fa-star" style="color: red;"></i></p>
-            
-            <p class="test2" style="display: none; color: purple;">С днём рожденья тебя поздравляю.
-            Веселись в этот день, не грусти.
-            Много счастья тебе я желаю,
-            А особенно счастья в любви! <i class="fas fa-star" style="color: red;"></i></p>
-            
-            <p class="test3" style="display: none; color: rgb(36, 36, 185);">Желаю счастья целый ворох,
-            Улыбок радостных букет,
-            Друзей надёжных и весёлых,
-            Счастливой жизни целый век! <i class="fas fa-star" style="color: red;"></i></p>
-            
-            <p class="test4" style="display: none; color: rgb(255, 136, 0);">Будь девушкой, уверенной в себе,
-            В своей борьбе, в тропе своей, в судьбе.
-            В толпе держись, как будто ты одна,
-            Как будто ты Богиней рождена! <i class="fas fa-star" style="color: red;"></i></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta author="Marina Altudova, front end developer from San Francisco">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="page-title">Memory Game</h1>
 
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Time <span id="time-remaining">100</span>
+            </div>
+            <div class="game-info">
+                Flips <span id="flips">0</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img src="cover.jpg" alt="cover image" style="width: 125px; height: 175px">
+            </div>
+            <div class="card-front card-face">
+                 <img src="green.jpg" alt="green color" style="width: 125px; height: 175px;">
+            </div>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
 
-
-        <i class="fas fa-heart one animate__animated animate__slideInRight" style="color: red; display: none;" ></i>
-        <i class="fas fa-heart two animate__animated animate__slideInRight" style="color: pink; display: none;"></i>
-        <i class="fas fa-heart three animate__animated animate__slideInRight" style="color: yellow; display: none;"></i>
-        <i class="fas fa-heart four animate__animated animate__slideInRight" style="color: purple; display: none;"></i>
-        <i class="fas fa-heart five animate__animated animate__slideInRight" style="color: orange; display: none;"></i>
-        <i class="fas fa-heart six animate__animated animate__slideInRight" style="color:cyan; display: none;"></i>
-        <i class="fas fa-heart seven animate__animated animate__slideInRight" style="color: #c19adb; display: none;"></i>
-        <i class="fas fa-heart eight animate__animated animate__slideInRight
-" style="color: #00ffb3; display: none; "></i>
-
-       </div>
-
-    
-    
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/683d5e3a-8ca4-46c8-844d-a1c538fad373/ddrs4cs-40ebc0f8-ab5b-42ac-9a9d-67d7a93d644b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjgzZDVlM2EtOGNhNC00NmM4LTg0NGQtYTFjNTM4ZmFkMzczXC9kZHJzNGNzLTQwZWJjMGY4LWFiNWItNDJhYy05YTlkLTY3ZDdhOTNkNjQ0Yi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.V4gTf5opSzw8RP6DBB7x3WJa5aJ7OCmVoPKPQmu18fA"
-            alt="" style="width: 250px; display: none;" class="zone">
-        <img src="https://www.meme-arsenal.com/memes/fd839930620985dc3a396fd2c8836270.jpg" alt="" style="width: 250px; display: none;"
-            class="zthree">
-        <img src="https://66.media.tumblr.com/f15882260bf7952ca024dec794f24c17/9c76eb04806663a2-68/s400x600/af74efe41b9786426d5df9f9b4ab6cba1822847f.jpg"
-            style="width: 250px; display: none;" alt="" class="ztwo">
-        <img src="https://i.ytimg.com/vi/DcYQRS_dReY/hqdefault.jpg" alt="" style="width:250px; display: none;" class="zfour">
-        <img src="https://uznayvse.ru/images/content/2020/3/uzn_15840907105.jpg" alt="" style="width:250px; display: none;" class="zfive">
-        <img src="https://ruskino.ru/media/photo/20738/mbXqoKa17s5HcwMVUiOhLRDQtMX.jpg" alt="" style="width:250px; display: none;"
-            class="zsix">
-        <img src="https://icdn.lenta.ru/images/2020/03/03/18/20200303184859089/square_1280_5514e5856affd6f32c44e979f725b582.jpg"
-            alt="" style="width:250px; display: none;" class="zseven">
- 
-
-           
-           <h4 class="hb" style="display: none;"> !!! 💐🌹🌸HAPPY BIRTHDAY 🌸🌹💐!!!</h4>
-           <h4 class="ha" style="display: none;"> !!! 💐🌹🌸HAPPY BIRTHDAY 🌸🌹💐!!!</h4>
-           <h4 class="hc" style="display: none;"> !!! 💐🌹🌸HAPPY BIRTHDAY 🌸🌹💐!!!</h4>
-           
-            
-
-
-        <script src="main.js" async defer></script>
-    </body>
+    <script src="main.js"></script>
+</body>
 </html>
