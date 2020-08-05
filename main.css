@@ -19,7 +19,7 @@ body{
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     justify-content: center;
-    margin: 50px;
+    margin: 50px auto;
     perspective: 500px;
 }
 .game-info-container {
@@ -57,6 +57,21 @@ body{
 .card.visible .card-front{
     transform: rotateY(0);
 }
+.card.matched .card-front .card-value {
+  animation: dance 1s linear infinite 500ms;
+}
+.card-back {
+  transform: rotateY(0); 
+}
+.card-value {
+  position: relative;
+  transition: transform 100ms ease-in-out;
+  transform: scale(.9);
+}
+.card-front:hover .card-value {
+  transform: scale(1);
+}
+
 .overlay-text{
     position: fixed;
     display: none;
@@ -66,16 +81,29 @@ body{
     bottom: 0;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: white;
     z-index: 100;
 }
 .overlay-text.visible {
     display: flex;
     animation: overlay-grow 500ms forwards;
-    flex-direction: column;
+    
 }
 .overlay-text-small {
     font-size: .3em;
+}
+
+@keyframes dance {
+    0%, 100% {
+        transform: rotate(0)
+    }
+    25% {
+        transform: rotate(-30deg);
+    }
+    75% {
+        transform: rotate(30deg);
+    }
 }
 
 @keyframes overlay-grow {
